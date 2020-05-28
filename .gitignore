@@ -1,0 +1,6 @@
+*
+!.gitignore
+!README.md
+!main.py
+!market.py
+!items.json

@@ -1,0 +1,24 @@
+[
+    {
+        "name": "arcane_guardian",
+        "filters": {
+            "order_type": "sell",
+            "user": {
+                "status": "ingame"
+            },
+            "mod_rank": 5
+        },
+        "target_sell_price": 400
+    },
+    {
+        "name": "arcane_energize",
+        "filters": {
+            "order_type": "sell",
+            "user": {
+                "status": "ingame"
+            },
+            "mod_rank": 5
+        },
+        "target_sell_price": 800
+    }
+]
