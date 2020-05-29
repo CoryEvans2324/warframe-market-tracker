@@ -1,6 +1,5 @@
-[
-    {
-        "name": "arcane_guardian",
+{
+    "arcane_guardian": {
         "filters": {
             "order_type": "sell",
             "user": {
@@ -10,8 +9,7 @@
         },
         "target_sell_price": 400
     },
-    {
-        "name": "arcane_energize",
+    "arcane_energize": {
         "filters": {
             "order_type": "sell",
             "user": {
@@ -21,4 +19,4 @@
         },
         "target_sell_price": 800
     }
-]
+}

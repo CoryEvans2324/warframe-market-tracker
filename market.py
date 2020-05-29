@@ -11,6 +11,7 @@ def get_orders(item):
 
     return {}
 
+
 def apply_filters(orders, dict_of_filters):
     for key, value in dict_of_filters.items():
         if isinstance(value, dict):  # to filter the user data
@@ -20,6 +21,17 @@ def apply_filters(orders, dict_of_filters):
             orders = [o for o in orders if o[key] == value]
 
     return orders
+
+
+def get_all_orders(items):
+    all_orders = {}
+    for name in items:
+        i_orders = get_orders(name)
+        # orders = apply_filters(i_orders, i['filters'])
+        all_orders[name] = i_orders
+
+    return all_orders
+
 
 def average(l):
     return sum(l) / len(l)
